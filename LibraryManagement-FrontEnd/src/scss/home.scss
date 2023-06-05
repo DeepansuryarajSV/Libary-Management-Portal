@@ -1,0 +1,98 @@
+@import '../custom.scss';
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-link{
+    cursor: pointer;
+}
+.custom-nav>li a{
+    color: $primary;
+}
+
+
+.custom-nav>li:hover{
+    background-color: $secondary;
+}
+
+.custom-nav-link{
+    width: 140px;
+}
+
+
+
+.custom-nav .nav-item:has(.nav-link.active) {
+    /* Your styles for active nav-item */
+    background-color: $secondary;
+}
+
+
+.custom-nav .nav-item .nav-link.active {
+    /* Styles for active nav-link */
+    color: $tertiary;
+}
+
+.greet-text-container{
+    // max-width: 20vw;
+    // width: fit-content;
+    // background-color: red;
+    max-width: 40vw;
+}
+
+
+.custom-nav>li:hover a{
+    color: $tertiary;
+}
+
+.home-body{
+    width: 100vw;
+    background-image: url("../images/background.png");
+    background-size: 60%;
+    background-position: bottom right;
+    background-repeat: no-repeat; 
+}
+
+.custom-button-reg-home{
+    color: $tertiary !important;
+    // color: red;
+}
+
+.custom-button-reg:hover{
+    background-color: $dark;
+    color: $tertiary;
+}
+
+//about page
+
+.about-container{
+    padding-left: 0;
+    padding-right: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../images/about-background.png");
+    background-size: 40%;
+    background-position: bottom left;
+    background-repeat: no-repeat; 
+    // background-color: red;
+    position: relative;
+}
+
+.about-text-container{
+    position: absolute;
+    background-color: white;
+    right: 5%;
+    top: 20%;
+}
+// .custom-button-reg{
+//     color: red;
+// }
+
+
+.about-details{
+    text-align: justify;
+}
+
+
+

@@ -1,0 +1,14 @@
+$primary: #142666;
+$secondary:#FF5B7E;
+$tertiary: #F8F9FA;
+$dark: #E03168;
+
+$position-values: (
+  0: 0,
+  50: 45%,
+  100: 90%
+);
+
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
